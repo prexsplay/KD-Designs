@@ -5,6 +5,7 @@ html {
       margin: 0;
       background: #0b0b0b;
       color: white;
+      max-height: 100vh;
   }
 /*   *,
   *:before,
@@ -27,7 +28,7 @@ text-align: center;
   
   header div{
       flex:auto;
-      width: 600px;
+      width: 400px;
       margin: .5vw;
       /* border : solid rgba(199, 196, 193, 0.89) 5px; */
   }
@@ -35,7 +36,7 @@ text-align: center;
       width: 100%;
       height: auto;
   }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 400px) {
     header div{
         margin: 0;
 

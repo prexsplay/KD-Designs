@@ -1,0 +1,49 @@
+html {
+    box-sizing: border-box;
+  }
+  body{
+      margin: 0;
+      background: #0b0b0b;
+      color: white;
+  }
+/*   *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }  */
+  .kg-text{
+font-size: 2em;
+color: inherit;
+text-align: center;
+  }
+
+
+  .container{
+      margin: .5vw;
+      display: flex;
+      flex-wrap: wrap;
+      flex-flow: row wrap;
+  }
+  
+  header div{
+      flex:auto;
+      width: 600px;
+      margin: .5vw;
+      /* border : solid rgba(199, 196, 193, 0.89) 5px; */
+  }
+  header div img{
+      width: 100%;
+      height: auto;
+  }
+@media screen and (max-width: 700px) {
+    header div{
+        margin: 0;
+
+    }
+header {
+    padding: 0;
+}
+
+
+}
+ 

@@ -15,7 +15,7 @@ var onEnterViewPort = function(entries, observer) {
 var observer =  new IntersectionObserver(onEnterViewPort , {
 });
 
-var hidemes= document.querySelectorAll('.panel');
+var panels= document.querySelectorAll('.panel');
 for(var i = 0; i < panels.length; ++i) {
   observer.observe(panels[i]);
 }

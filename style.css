@@ -17,6 +17,10 @@ font-size: 2em;
 color: inherit;
 text-align: center;
   }
+.container{
+    transition-property: opacity;
+  transition-duration: 2s;
+}
 
  p {
   display: none;

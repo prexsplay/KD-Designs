@@ -39,7 +39,7 @@ text-align: center;
 .panel
 {
     opacity:0;
-    transition: 1s ease-out;
+    transition: 3s ease-out;
 }
 
 .in

@@ -43,7 +43,7 @@ html {
 
 .panel
 {
-    opacity:;
+    opacity:1;
     transition: 1s ease-out;
 }
 

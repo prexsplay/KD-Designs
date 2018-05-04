@@ -18,10 +18,7 @@ color: inherit;
 text-align: center;
   }
 
-
-
-
-  .container{
+.container{
       margin: .5vw;
       display: flex;
       flex-wrap: wrap;
@@ -38,6 +35,20 @@ text-align: center;
       width: 100%;
       height: auto;
   }
+
+.panel
+{
+    opacity:0;
+    transition: 1s ease-out;
+}
+
+.in
+{
+  opacity: 1;
+}
+
+
+
 @media screen and (max-width: 400px) {
     header div{
         margin: 0;

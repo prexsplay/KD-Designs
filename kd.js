@@ -1,2 +1,2 @@
 p.style.display = "block";
-requestAnimationFrame(() => p.style.opacity = 1);
+requestAnimationFrame(("p") => p.style.opacity = 1);

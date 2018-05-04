@@ -1,2 +1,2 @@
-elem.style.display = "block";
+p.style.display = "block";
 requestAnimationFrame(() => p.style.opacity = 1);

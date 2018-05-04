@@ -1,4 +1,4 @@
-var onEnterViewPort = function(entries, observer) {
+/* var onEnterViewPort = function(entries, observer) {
   entries.forEach(function(entry) {
     console.log(entry);
     // Fade in when we enter the viewport
@@ -19,3 +19,4 @@ var panels= document.querySelectorAll('.panel');
 for(var i = 0; i < panels.length; ++i) {
   observer.observe(panels[i]);
 }
+ */

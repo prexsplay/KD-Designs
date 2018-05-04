@@ -25,7 +25,7 @@ html {
   .container {
       margin: .5vw;
       display: flex;
-      flex-wrap: wrap;
+      /* flex-wrap: wrap; */
       flex-flow: row wrap;
   }
 
@@ -43,13 +43,26 @@ html {
 
 .panel
 {
-    opacity:.1;
+    opacity:;
     transition: 1s ease-out;
 }
 
 .in
 {
   opacity: 1;
+}
+
+.zoom {
+   
+    transition: transform .5s;
+  /*   width: 200px;
+    height: 200px; */
+    margin: 0 auto;
+}
+
+.zoom:hover {
+
+    transform: scale(1.7); 
 }
 
 @media screen and (max-width: 400px) {

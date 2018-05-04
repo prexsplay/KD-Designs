@@ -17,6 +17,9 @@ font-size: 2em;
 color: inherit;
 text-align: center;
   }
+button{
+    margin: 0;
+}
 
  p {
   display: none;

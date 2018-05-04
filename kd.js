@@ -1,7 +1,21 @@
-window.onscroll = function() {myFunction()};
-
-function myFunction() {
-    if (document.body.scrollTop > 350 || document.documentElement.scrollTop > 350) {
-        document.getElementById("ptext").className = "slideUp";
+var onEnterViewPort = function(entries, observer) {
+  entries.forEach(function(entry) {
+    console.log(entry);
+    // Fade in when we enter the viewport
+    if (entry.intersectionRatio !== 0) {
+      entry.target.classList.add('in');
     }
+    // Fade back out when we leave the viewport
+    else {
+      entry.target.classList.remove('in');
+    }
+  })
+}
+
+var observer =  new IntersectionObserver(onEnterViewPort , {
+});
+
+var hidemes= document.querySelectorAll('.panel');
+for(var i = 0; i < panels.length; ++i) {
+  observer.observe(panels[i]);
 }

@@ -19,11 +19,7 @@ text-align: center;
   }
 
 
- p {
-  display: none;
-  opacity: 0;
-  transition: .8s;
-}
+
 
   .container{
       margin: .5vw;

@@ -25,7 +25,7 @@ html {
   .container {
       margin: .5vw;
       display: flex;
-      /* flex-wrap: wrap; */
+      flex-wrap: wrap;
       flex-flow: row wrap;
   }
 

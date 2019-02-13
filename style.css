@@ -32,7 +32,7 @@ html {
   header div {
       flex: auto;
       width: 400px;
-      margin: 1vw;
+      margin: 5px;
       
       border : solid rgba(199, 196, 193, 0.89) 5px;
   }
@@ -56,10 +56,9 @@ html {
 
 .zoom {
    
-    transition: transform .1s;
-  /*   width: 200px;
-    height: 200px; */
-    margin: 5px;
+    transition: transform .1s;   
+    /*   width: 200px; height: 200px; */
+     margin: 5px;
     border-radius: 5%;
 }
 

@@ -32,7 +32,7 @@ html {
   header div {
       flex: auto;
       width: 400px;
-      margin: .5vw;
+      margin: 5vw;
       
       border : solid rgba(199, 196, 193, 0.89) 5px;
   }
@@ -46,7 +46,7 @@ html {
 .panel
 {
     opacity:1;
-    transition: 5s ease-out;
+    transition: 1s ease-out;
 }
 
 .in

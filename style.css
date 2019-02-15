@@ -31,14 +31,14 @@ html {
 
   header div {
       flex: auto;
-      width: 400px;
+      width: auto;
       margin: 5px;
       
       border : solid rgba(199, 196, 193, 0.89) 5px;
   }
 
   header div img {
-      width: 390px;
+      width: auto;
       height: 10em;
      
   }

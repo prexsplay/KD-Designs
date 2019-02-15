@@ -27,19 +27,21 @@ html {
       display: flex;
       flex-wrap: wrap;
       flex-flow: row wrap;
+      /* flex-basis: 1; */
   }
 
   header div {
       flex: auto;
-      width: auto;
-      margin: 5px;
+      width: 400px;
+      margin: 10px;
       
       border : solid rgba(199, 196, 193, 0.89) 5px;
   }
 
   header div img {
-      width: 25rem;
-      height: 10em;
+     
+      width: 27em;
+      height: auto;
      
   }
 
@@ -59,12 +61,12 @@ html {
     transition: transform .1s;   
     /*   width: 200px; height: 200px; */
      margin: 5px;
-    border-radius: 5%;
+    border-radius: 1%;
 }
 
 .zoom:hover {
 
-    transform: scale(1.5); 
+    transform: scale(1.2); 
 }
 
 @media screen and (max-width: 400px) {

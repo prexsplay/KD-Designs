@@ -32,7 +32,7 @@ html {
 
   header div {
       flex: auto;
-      width: 400px;
+      width: 320px;
       margin: 10px;
       
       border : solid rgba(199, 196, 193, 0.89) 5px;

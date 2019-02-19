@@ -1,8 +1,8 @@
 html {
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
   }
   body{
-     background: #0b0b0b;
+     background: #dfc5dcd3;
       color: white;
       max-height: 100vh;
   }
@@ -13,34 +13,55 @@ html {
     box-sizing: inherit;
   }  */
 
-  .kg-text {
+  .kd-text {
       
-    font-family: 'Titan One', cursive;
-      font-size: 3em;
+    font-family: impact,  'Titan One', cursive;
+      font-size: 5em;
       color: inherit;
       text-align: center;
-      text-shadow: 3px 1px 3px #ff0000ad;
+      text-shadow: 3px 1px 3px #2e2929ad;
+      background-color: #c49fbfd3;
   }
 
-  .container {
+  .cro {
+    text-align: center;
+    color: #2e2929ad;
+    font-size: 2em;
+    font-family: lato;
+    border: solid red 1px;
+    margin: 0;
+  }
+
+  .container-cro {
     /* padding: 0; */
-      margin: 150px 5px 0;
+      /* margin: 10px 5px 0; */
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      padding: 20px 5px 50px;
+      /* padding: 10px 5px 50px; */
       /*flex-flow: row wrap;*/
       /* flex-basis: 1; */
-      border: 10px solid green;
+      border: 1px solid green;
   }
+
+ .crocheting{
+  margin: 300px 0 50px 0;
+} 
+ 
+
 
   header div {
       
       width: 450px;
       padding: 10px;
       /* margin: 5px; */
-      /* border : solid rgba(199, 196, 193, 0.89) 5px; */
+      /* border : solid rgba(199, 196, 193, 0.89) 1px; */
       border-radius: 10px;
+  }
+  .pict{
+    text-align: center;
+    color:#2e2929ad;
+    font-family: lato;
   }
 
   .z{
@@ -49,6 +70,7 @@ html {
       max-width: 100%;
       /* max-height: 100%; */
       border-radius: 10px;
+      border : solid rgba(54, 54, 54, 0.89) 1px;
     }
 
 .panel
@@ -77,9 +99,9 @@ html {
 
 @media screen and (max-width: 400px) {
     header div {
-        margin: 10px;
+        margin: 0;
     }
     header {
-        padding: 10px;
+        padding: 0;
     }
 }

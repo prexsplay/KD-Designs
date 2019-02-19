@@ -31,7 +31,7 @@ html {
       padding: 20px 5px 50px;
       /*flex-flow: row wrap;*/
       /* flex-basis: 1; */
-      /* border: 10px solid green; */
+      border: 10px solid green;
   }
 
   header div {

@@ -26,21 +26,21 @@ html {
       margin: .5vw;
       display: flex;
       flex-wrap: wrap;
-      flex-flow: row wrap;
+      /*flex-flow: row wrap;*/
       /* flex-basis: 1; */
   }
 
   header div {
       flex: auto;
       width: 320px;
-      margin: 10px;
+      margin: .3em;
       
       border : solid rgba(199, 196, 193, 0.89) 5px;
   }
 
   header div img {
      
-      width: 400px;
+      width: 20em;
       height: auto;
      
   }

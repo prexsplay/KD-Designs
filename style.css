@@ -2,8 +2,7 @@ html {
     box-sizing: border-box;
   }
   body{
-      margin: 0;
-      background: #0b0b0b;
+     background: #0b0b0b;
       color: white;
       max-height: 100vh;
   }
@@ -15,6 +14,7 @@ html {
   }  */
 
   .kg-text {
+      
     font-family: 'Titan One', cursive;
       font-size: 3em;
       color: inherit;
@@ -23,25 +23,31 @@ html {
   }
 
   .container {
-      margin: .5vw;
+    padding: 0;
+    margin: 10em ;
+      margin: 10em 0 0 0;
       display: flex;
       flex-wrap: wrap;
       /*flex-flow: row wrap;*/
       /* flex-basis: 1; */
+      border: 10px solid green;
   }
 
   header div {
-      flex: auto;
+      
       width: 320px;
       margin: .3em;
       
       border : solid rgba(199, 196, 193, 0.89) 5px;
+      border-radius: 10px;
   }
 
-  header div img {
+  .z{
      
       width: 20em;
-      height: auto;
+      /* height: auto; */
+      border-radius: 10px;
+
      
   }
 

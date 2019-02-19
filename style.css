@@ -37,8 +37,9 @@ html {
   header div {
       
       width: 450px;
+      padding: 10px;
       /* margin: 5px; */
-      border : solid rgba(199, 196, 193, 0.89) 5px;
+      /* border : solid rgba(199, 196, 193, 0.89) 5px; */
       border-radius: 10px;
   }
 
@@ -58,7 +59,7 @@ html {
 
 .in
 {
-  opacity: 2;
+  opacity: 5;
 }
 
 .z {
@@ -71,7 +72,7 @@ html {
 
 .z:hover {
 
-    transform: scale(1.2); 
+    transform: scale(1.1); 
 }
 
 @media screen and (max-width: 400px) {
